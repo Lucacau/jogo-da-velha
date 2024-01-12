@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.fundinho{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #4c92ad 16.62%, #9cc5c7 85.61%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+}
+.estrutura{
+    text-align: center;
+}
+.tabuleiro{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    justify-content: center;
+}
+.celula{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(68.15deg, #62be93 16.62%, #42bb5c 85.61%);
+}
+#resetButton{
+    border: 2px solid #333;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #42bb5c;
+    font-family: 'Russo One', sans-serif;
+}
+.message {
+    margin-top: 20px;
+    font-size: 20px;
+}
